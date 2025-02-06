@@ -4,7 +4,7 @@ add the firmware repo
 
 echo "deb http://deb.debian.org/debian/ unstable non-free-firmware" > /etc/apt/sources.list.d/debian-unstable.list
 
-allowlist the intel or amd (or both) packages in /etc/apt/preferences.d/unstable-repo
+priorize the intel or amd (or both) packages and lowest priority to all other packages in /etc/apt/preferences.d/unstable-repo 
 
 # lower the priority of all packages in the unstable repository
 Package: *
