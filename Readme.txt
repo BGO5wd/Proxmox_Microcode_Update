@@ -39,4 +39,4 @@ and reboot
 
 check journalctl for applied microcodepatch
 
-journalctl -k --grep="microcode updated early to"
+journalctl -k --grep="Updated early from"
